@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stylish Contact Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <form id="contactForm" class="form">
+    <h2>Contact Us ✨</h2>
+
+    <div class="input-box">
+      <input type="text" id="name" required>
+      <label>Name</label>
+      <small class="error" id="nameError"></small>
+    </div>
+
+    <div class="input-box">
+      <input type="text" id="email" required>
+      <label>Email</label>
+      <small class="error" id="emailError"></small>
+    </div>
+
+    <div class="input-box">
+      <textarea id="message" rows="3" required></textarea>
+      <label>Message</label>
+      <small class="error" id="messageError"></small>
+    </div>
+
+    <button type="submit" class="btn">Send Message 🚀</button>
+    <p id="successMsg"></p>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
